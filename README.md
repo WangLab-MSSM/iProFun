@@ -3,7 +3,7 @@
 `iProFun`
 =========
 
-An *i*ntegrative analysis tool to screen for *Pro*teogenomic *Fun*ctional traits perturbed by DNA copy number alterations (CNA) and DNA methylation
+An *i*ntegrative analysis tool to screen for *Pro*teogenomic *Fun*ctional traits perturbed by DNA copy number alterations and DNA methylation
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ### Manuscript
 
