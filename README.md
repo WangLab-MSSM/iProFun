@@ -21,6 +21,7 @@ You can install the latest version directly from GitHub with [devtools](https://
 
 ``` r
 install.packages("devtools")
+library(devtools)
 devtools::install_github("songxiaoyu/iProFun")
 ```
 
