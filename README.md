@@ -5,14 +5,15 @@
 
 An *i*ntegrative analysis tool to screen for *Pro*teogenomic *Fun*ctional traits perturbed by DNA copy number alterations (CNA) and DNA methylation
 ---------------------------------------------------------------------------------------------------------------------------------------------------
+### Manuscript
 
-The goal of **iProFun** is to
+Song, Xiaoyu, Jiayi Ji, Kevin J. Gleason, John A. Martignetti, Lin S. Chen, and Pei Wang. "Insights into impact of DNA copy number alteration and methylation on the proteogenomic landscape of human ovarian cancer via a multi-omics integrative analysis." BioRxiv (2018): 488833. [Here](https://www.biorxiv.org/content/early/2018/12/06/488833).
 
--   characterize functional consequences of DNA copy number and methylation alterations in tumors
+### Goals of **iProFun** 
 
--   facilitate screening for cancer drivers contributing to tumor initiation and progression, since CNAs and DNA methylations that preserve functional consequences are more likely to be cancer drivers.
+-   to characterize functional consequences of DNA copy number and methylation alterations in tumors
 
-This package implement iProFun using 2 main functions. The primary function is (surprise!) `iProFun`, which first fit multiple linear regression to obtain summary statistics and then use the statistics to detect joint associations of DNA alternations with multi-omic traits. False discovery rate assessment is supported by `iProFun_permutate` function. A full description of the method can be found in our [paper](https://www.biorxiv.org/content/early/2018/12/06/488833).
+-   to facilitate screening for cancer drivers contributing to tumor initiation and progression, since CNAs and DNA methylations that preserve functional consequences are more likely to be cancer drivers.
 
 ### Installation
 
@@ -32,6 +33,15 @@ devtools::install_github("songxiaoyu/iProFun")
 <!--     install.packages("devtools") -->
 <!--     devtools::install_github("xiaoyu/Rpackage/iProFun") -->
 <!--     ```` -->
+
+### Main functions
+
+This package implement iProFun using 2 main functions. 
+
+- The primary function is (surprise!) `iProFun`, which first fit multiple linear regression to obtain summary statistics and then use the statistics to detect joint associations of DNA alternations with multi-omic traits. 
+
+- The second function `iProFun_permutate` allows filtering associations with effect directions matching biological interests, minimal posterior probabilities for significance calls with high confidenece, and false discovery rate controlled association identifications via permutation. 
+
 
 
 ### Contributions
